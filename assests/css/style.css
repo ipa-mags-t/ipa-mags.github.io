@@ -2,6 +2,3 @@
 ---
 
 @import "{{ site.theme }}";
-#banner .fork {
-  margin-left:450px; !important
-}
