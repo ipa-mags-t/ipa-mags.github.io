@@ -50,4 +50,4 @@ The project RoboPORT will build up an interdisciplinary robotic developer commun
 
 ![](/images/trello.jpg)
 
-# [Features](#features)
+## [Features](#features)
