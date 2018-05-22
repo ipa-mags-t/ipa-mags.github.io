@@ -48,24 +48,27 @@
         
       </div><!-- end banner -->
 
-    <div class="wrapper">
-      
+    <div class="container-fluid wrapper">
+      <div class="row">
+        <div class="col-lg-3 col-xl-3">
       <nav style="width:0px;margin-left:0px;left:5%;">
         <ul></ul>
       </nav>
-      
-      
+        </div>
+      <div class="col-lg-9 col-xl-9">
       <section style="width:1200px;margin-left:-250px;">
         {{ content }}
 
       </section>
-     
+     </div>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         
       </footer>
+        
+      </div>
     </div>
 
     {% if site.google_analytics %}
