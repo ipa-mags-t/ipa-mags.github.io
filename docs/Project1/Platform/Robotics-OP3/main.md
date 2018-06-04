@@ -1,6 +1,6 @@
-# [Introduction](#introduction)
+# 1.Introduction
 
-## [What is OP3?](#what-is-op3)
+**What is OP3?**
 Open Platform Humanoid Project
 
 ![](/images/op3/op3_product.png)
@@ -89,7 +89,7 @@ ROBOTIS OP3 is an affordable, miniature humanoid robot platform with advanced co
 | Development<br />Environment |                             OS : Linux (64-bit)<br />C++, ROS, Dynamixel SDK                             |
 
 
-## [Safety Information](#safety-information)
+# 2.Safety Information
 
 **CAUTION** : ROBOTIS will not be responsible for any loss or damage whatsoever caused resulting from user’s negligence or misuse of the product.
 {: .notice--warning}
