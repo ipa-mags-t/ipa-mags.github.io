@@ -120,7 +120,7 @@ Click on the Download button as shown below. As the download begins the board’
 **NOTE** : If the power turns on for the board and the green LED is continuously turned on then restart the Download. Please refer to the Emergency Recovery Mode(Force Download) section.
 {: .notice}
 
-### [MAC OS X](#mac-os-x)
+**MAC OS X**
 
 #### Download the Mac OS X release for ROBOTIS OpenCM
 
