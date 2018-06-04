@@ -1,6 +1,4 @@
----
-layout:default
----
+
 
 # 1. Overview
 
