@@ -138,7 +138,7 @@ Select Tools → Port → /dev/ttyACM0.
 
 ![](/images/sw/ide6.png)
 
-### [Remove Modemmanager](#remove-modemmanager)
+**Remove Modemmanager**
 
 Only **OpenCR** requires this process. If you are using OpenCM9.04, please skip this section.
 {: .notice--warning}
@@ -297,7 +297,7 @@ Select Tools → Port → COM1.
 
 # 3.Examples
 
-## [OpenCM9.04 Examples](#opencm904-examples)
+**OpenCM9.04 Examples**
 
 1. [LED]{: .popup}
 2. [Button]{: .popup}
