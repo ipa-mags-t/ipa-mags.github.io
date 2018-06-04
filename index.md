@@ -1,14 +1,3 @@
----
-layout: default
-lang: en
-ref: overview
-read_time: true
-share: true
-author_profile: false
-permalink: /index
-  
----
-
 
 # Overview
 
