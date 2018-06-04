@@ -320,12 +320,12 @@ Select Tools → Port → COM1.
 
 The STM32F7xx, which is used for the main MCU on the OpenCR board, supports DFU(Device Firmware Upgrade). This enables the built-in bootloader of the MCU by itself to boot the DFU protocol by using USB, primarily for the bootloader initialization, the recovery mode, and the bootloader update. The biggest advantage to let the users be able to use bootloader with USB but no other JTAG equipment. Write the firmware by using the DFU mode which is embedded in MCU without writing / debugging equipment, such as STLink.
 
-### Programmer Setting
+#### Programmer Setting
 Select Tools → DFU-UTIL
 
 ![](/images/sw/bootloader_19.png)
 
-### Run DFU mode.
+#### Run DFU mode.
 Press the `Reset Button` while the `Boot Button` is being pushed. This activates the DFU mode.  
 
 #### For Linux
@@ -339,7 +339,7 @@ If you successfully entered to DFU mode, you will be able to find `STM32 BOOTLOA
 
 ![](/images/sw/dfu_mode_win.png)
 
-### Download the bootloader.
+#### Download the bootloader.
 
 Click Tools → Burn Bootloader to download the bootloader.
 
