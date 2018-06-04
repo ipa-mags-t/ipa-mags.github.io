@@ -24,7 +24,7 @@ The project RoboPORT will build up an interdisciplinary robotic developer commun
 ![](/images/partners.jpg)
 
 
-## [Tools](Tools)
+
 1. **Project Place**
 
 ![](/images/project-place.jpg)
@@ -49,4 +49,4 @@ The project RoboPORT will build up an interdisciplinary robotic developer commun
 
 ![](/images/trello.jpg)
 
-## [Features](#features)
+
