@@ -65,7 +65,7 @@ user’s negligence or misuse of the product.
 - Only use the battery and charger included in the kit.
 - Gears must be replaced after long excessive use.
 
-# 2.Quick Start
+# 2.Quick_Start
    
 **Power On**
 
@@ -75,7 +75,7 @@ user’s negligence or misuse of the product.
 
 ![](/images/op2/op2_010.png)
 
-# 3.Programming Guide
+# 3.Programming_Guide
 
 **Connect to OP2**
 ![](/images/op2/op2_023.png)
