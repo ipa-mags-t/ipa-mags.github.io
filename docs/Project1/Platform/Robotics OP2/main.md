@@ -25,7 +25,7 @@ You can now focus your efforts more into developing the robot and less on devoti
    - Location of the ports
    - ROBOTIS OP2 no longer has the 3.5mm microphone and audio jacks
    
-   ![](/assets/images/platform/op2/op2_002.png)
+   ![](/images/op2/op2_002.png)
    
    > Here are some mechnamical differences
   
