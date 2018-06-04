@@ -9,7 +9,7 @@ For more information on the OpenCM9.04 refer to the Appendix section of the e-ma
 - [GNU GPL](http://opensource.org/licenses/gpl-license.php)
 - [GNL LGPL](http://opensource.org/licenses/lgpl-license.php)
 
-# 2.ROBOTIS OpenCM Software Download
+**ROBOTIS OpenCM Software Download**
 
 OpenCM9.04 uses the ROBOTIS OpenCM Integrated Developmental Environment (IDE) to allow users to program with ease.  
 The download link for the ROBOTIS OpenCM IDE can be found below:
@@ -20,7 +20,7 @@ The download link for the ROBOTIS OpenCM IDE can be found below:
 - [Linux 32bit] Tested in Ubuntu 10.10 : [Dowload](http://www.robotis.com/service/download.php?no=50)
 
 
-# 3.Getting_Started
+# 2.Getting_Started
 
 **Install_Software**
 
