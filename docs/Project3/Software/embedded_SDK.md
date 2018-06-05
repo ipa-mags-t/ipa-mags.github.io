@@ -1,7 +1,7 @@
 ---
 layout: Project3
 ---
-# 1.Dynamixel_SDK3333
+# 1.Dynamixel_SDK
 
 |Protocol 1.0|Protocol 2.0|ROS|Windows|Linux|OS X|LabVIEW|MATLAB|VB|C#|C++|Java|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
