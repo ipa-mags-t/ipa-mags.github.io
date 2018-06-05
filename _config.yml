@@ -2,6 +2,5 @@ theme: jekyll-theme-leap-day
 locale                   : "en"
 title                    : [Roboport-wiki]
 title                    : "ROBOPORT-Wiki"
-title_separator          : "-"
 name                     : "Roboport"
 url                      : "http://wiki.roboport.eu/"
