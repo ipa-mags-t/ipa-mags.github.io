@@ -1,3 +1,8 @@
+---
+layout: Project2
+---
+
+
 **Our Partners**
 
 ![](/images/partners.jpg)
