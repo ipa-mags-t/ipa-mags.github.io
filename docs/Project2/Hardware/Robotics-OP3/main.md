@@ -1,10 +1,10 @@
 ---
-layout:Project2
+layout: Project2
 ---
 
 
 
-# 1.Introduction
+# 1.Introduction2222
 
 **What is OP3?**
 Open Platform Humanoid Project
