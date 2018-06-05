@@ -1,6 +1,9 @@
-**Our Partners**
+---
+layout: Project3
+---
 
-![](/images/partners.jpg)
+
+**Our Partners**
 
 # 2.Tools
 
