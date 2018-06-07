@@ -1,3 +1,7 @@
+---
+layout: Project2
+---
+
 
 # Introduction
 ![](/images/parts/with_arduino.png)
