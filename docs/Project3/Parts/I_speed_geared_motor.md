@@ -1,3 +1,7 @@
+---
+layout: Project3
+---
+
 
 ![](/images/parts/l_speed_geared_motor_product.jpg)
 
