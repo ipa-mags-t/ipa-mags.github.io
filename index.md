@@ -1,54 +1,7 @@
 
 
 # 1.Overview
-
-![](/images/main.jpg)
-
-The project RoboPORT will build up an interdisciplinary robotic developer community through a web-based platform, which enables the robotic hardware development by co-creation. In the field of service robotics the platform serves in particular the generation of innovations as well as their effective transfer into prototypes.
-
-**Our Projects**
-
-
-**Roboy**
-
-
-![](/images/Roboy.jpg)
-
-**MyOrobotics**
-
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/da2WufEHOt0" frameborder="0" allowfullscreen></iframe>
-
-
-**Our Partners**
-
-![](/images/partners.jpg)
-
-# 2.Tools
-
-1. **Project Place**
-
-![](/images/project-place.jpg)
-
-1. **Innosabi**
-
-![](/images/innosabi.jpg)
-
-1. **Google Drive**
-
-![](/images/google-drive.jpg)
-
-1. **RealTime Board**
-
-![](/images/realtime-board.jpg)
-
-1. **Slack**
-
-![](/images/slack.jpg)
-
-1. **Trello**
-
-![](/images/trello.jpg)
-
-# 3.Features
-
+Rob@work mini is a simple demonstration and development platform for navigation strategies from Fraunhofer IPA.
+The HW development of the rob@work mini is a development based on the open source robot TurtleBot and the data will be made open source here in the RoboPORT repository.
+The vision of this Project is to create a user community around this robot, which will be able to build their own robots of this type - further developments of their robots will be mirrored back into into this project, to provide them to all. 
+By an increasing demand from the community, it is planed  to provide this robot as a toolkit, delivered directly from the sub-manufacturers.
