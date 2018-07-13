@@ -92,7 +92,20 @@ The motors need to be set to their correct ID, the ID configuration can be chang
 These IDs need to be set for the motors alongside the baudrate which needs to be set to 1000000. Additionally, the motors need to be set to `wheel mode`. Note: some of the example files from the DynamixelSDK set the mode to `joint mode` by default.
 
 # 4. Robot Software Setup
+This section describes the setup for the IPA in-house developed navigation and localization software. However, the robot can be used with open source software by publishing and subscribing to the topics described in section 2.
+The following steps need to be taken in order to use the robot hardware with the latest IPA navigation software. 
 
+1. Make sure that the most up-to-date ipa-navigation software is installed on the computer that is controlling the robot and that the correct license files are installed.
+2. Set the ROBOT environment variable to `raw-mini`. If the navigation is also used the ROBOT_ENV variable needs to be set.
+3. Use the `roslaunch cob_bringup robot.launch` terminal command to start the robot. Now it should already be possible to drive the robot using the joystick.
+_If no navigation and localisation should be used, the setup is now finished_
+4. If the navigation and localisation should be used. Now is the time to do a first mapping of the area. This is done by going into the environment folder that is set in the ROBOT_ENV variable. Then start the gmapping tool needs to be started. The documentation for this tool can be found [here](wiki.ros.org/gmapping). While mapping the environment, the robot should be driven around the whole area using the joystick. 
+Once finished, end the gmapping tool and the map should be saved as map.pgm file.
+5. Start the ipa navigation by using the `roslaunch ipa_navigation ipa_navigation.launch use_lts=true init_from_static_map=true`
+6. Now the setup should be complete and the robot should be able to receive goals send via rviz or via the `/move_base_simple/goal` topic and drive there autonomously.
+
+## Robot Upstart
+For automatically launching the robot on startup, the [robot upstart](http://wiki.ros.org/robot_upstart) package can be used. This needs to be installed as instruced on the documentation page. It is advised that a custom launch file is created that already contains all necessary arguments and variables such as ROBOT and ROBOT_ENV since when starting up, robot upstart uses a different user to launch the applications and cannot use the variables stored in the `~/.bashrc` file.
 
 # 5. Debugging
 
