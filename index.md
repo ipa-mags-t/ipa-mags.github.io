@@ -83,6 +83,7 @@ The motors used in this setup are Dynamixel XM430-W210. For the use in with the 
 It is important that during the configuration always only one motor is connected to the board. 
 The motors need to be set to their correct ID, the ID configuration can be changed as shown in section 2. The default ID configuration is as follows:
 
+
 | ID | Motor       | 
 | -- | ----------- | 
 | 1  | front left  | 
