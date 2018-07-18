@@ -13,11 +13,11 @@ The base controller code requires the [OpenCR Board by ROBOTIS](https://github.c
 
 The code for the adapted turtlebot core can be found at the [IPA fork of the ROBOTIS repository](https://github.com/flg-vs/OpenCR/tree/7404d3b905f6fad9b289b8b85112ffdaecd22337/arduino/opencr_arduino/opencr/libraries/turtlebot3/examples/turtlebot3_friends/turtlebot3_mecanum_core) under /examples/turtlebot3_friends/turtlebot3_mecanum_core. It will be tried to feed this back to the main repositoriy to make this code available directly from the turtlebot & friends examples.
 
-## Installation
+- Installation
 
 Make sure to install the Arduino IDE and the OpenCR libraries by following [these Instructions](emanual.robotis.com/docs/en/platform/turtlebot3/opencr1_0_software_setup/). Then use the Arduino IDE to upload the turtlebot3_mecanum_core.ino file onto the OpenCR board.
 
-## Usage
+- Usage
 
 The OpenCR Board launches a ROS Node that can be connected to by using the
 ```
@@ -27,7 +27,7 @@ command.
 
 Once the ROS Node is connected, the OpenCR Board publishes and subscribes to various topics listed below:
 
-### Published Topics
+- Published Topics
 
 | Topic Name       | Type                           | Description |
 | ---------------- | ------------------------------ | ----------- |
@@ -39,7 +39,7 @@ Once the ROS Node is connected, the OpenCR Board publishes and subscribes to var
 | `battery_state`  | `sensor_msgs::BatteryState`    |  |
 | `magnetic_field` | `sensor_msgs::MagneticField`   |  |
 
-### Subscribed Topics
+- Subscribed Topics
 
 | Topic Name    | Type                     | Description |
 | ------------- | ------------------------ | ----------- |
@@ -48,7 +48,7 @@ Once the ROS Node is connected, the OpenCR Board publishes and subscribes to var
 | `motor_power` | `std_msgs::Bool`         | Turns the motors on or off |
 | `reset`       | `std_msgs::Empty`        | Resets the board |
 
-## Configuration
+- Configuration
 
 The following code lines need to be modified in the [turtlebot3_mecanum_core_config.h](turtlebot3_mecanum_core_config.h) and  [turtlebot3_mecanum_core_motor_driver](turtlebot3_mecanum_core_motor_driver.h) files: 
 _Note: you might also want to change the Topic names that the OpenCR Board subscribes and publishes. This can be done in the core file._
