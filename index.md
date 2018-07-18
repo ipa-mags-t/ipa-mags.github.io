@@ -77,7 +77,7 @@ If you use other motors than the Dynamixel XM430-W210, you might need to change 
 
 # 3. Hardware Setup
 
-## Motor Configuration
+- Motor Configuration
 The motors used in this setup are Dynamixel XM430-W210. For the use in with the rob@work mini, the default configuration of these motors needs to be changed. This can be done by using one of the ROBOTIS configuration tools, one example is the DynamixelSDK which is available from the ROBOTIS Arduino examples. There, the different example programs can be uploaded to the OpenCR board to change the configuration of the motors.
 It is important that during the configuration always only one motor is connected to the board. 
 The motors need to be set to their correct ID, the ID configuration can be changed as shown in section 2. The default ID configuration is as follows:
@@ -104,12 +104,12 @@ Once finished, end the gmapping tool and the map should be saved as map.pgm file
 5. Start the ipa navigation by using the `roslaunch ipa_navigation ipa_navigation.launch use_lts=true init_from_static_map=true`
 6. Now the setup should be complete and the robot should be able to receive goals send via rviz or via the `/move_base_simple/goal` topic and drive there autonomously.
 
-## Robot Upstart
+- Robot Upstart
 For automatically launching the robot on startup, the [robot upstart](http://wiki.ros.org/robot_upstart) package can be used. This needs to be installed as instruced on the documentation page. It is advised that a custom launch file is created that already contains all necessary arguments and variables such as ROBOT and ROBOT_ENV since when starting up, robot upstart uses a different user to launch the applications and cannot use the variables stored in the `~/.bashrc` file.
 
 # 5. Debugging
 
-## Motors
+- Motors
 
 For debugging the motors the [RoboPlus Manager 2.0](http://www.robotis.us/roboplus2/) application can be used. To use this software, either the [Usb2Dynamixel](http://www.robotis-shop-en.com/?act=shop_en.goods_view&GS=1289&GC=GD0B0107) adapter or the OpenCR board ([using this code](https://github.com/ROBOTIS-GIT/OpenCR/blob/develop/arduino/opencr_arduino/opencr/libraries/OpenCR/examples/10.%20Etc/usb_to_dxl/usb_to_dxl.ino)) needs to be connected.
 Make sure that only one motor is connected to the board while running the initialization software.
